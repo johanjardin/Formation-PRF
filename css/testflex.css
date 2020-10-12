@@ -1,0 +1,17 @@
+
+
+div#container {
+    border: 1px solid red;
+    display:flex;
+    /*axe principal*/
+    height:400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+div#container > div {
+    border: 1px solid black;
+    flex-basis:30%;
+
+}

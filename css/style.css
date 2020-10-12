@@ -1,0 +1,115 @@
+* {
+    background-color: black;
+}
+
+h1 { width: auto;
+    padding     : 20px;
+    text-align  : center;
+    color       : green;
+    font-size   : 3em;
+    text-shadow : 4px 2px 4px 0px;
+    border      : solid;
+    border-width: 4px;
+    border-color: aquamarine;
+    border-radius: 5px;
+    
+    box-shadow  : 4px 2px 4px 0px;
+}
+
+.dev {
+    font-size : 2.2em;
+    text-align: center;
+    color     : green;
+}
+
+
+h2 {
+    font-family: impact;
+    font-size  : 2.8em;
+}
+
+h3 {
+    font-family: impact;
+    font-size  : 2em;
+}
+h4{
+    color:white;
+}
+
+body {
+    color: green;
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#ma-photo {
+    float    : left;
+    max-width: 100%;
+
+}
+
+main {
+    clear: left;
+}
+
+header img {
+    float: left;
+}
+
+/* Media query */
+@media screen and (min-width:980px) {
+
+    #section-formation {
+        border-radius: 5px;
+        text-align   : center;
+        width        : 45%;
+        margin-right : 10px;
+        float        : left;
+        border       : solid;
+        border-color : aquamarine;
+        border-radius: 5px;  
+        box-shadow   : 4px 2px 4px 0px;
+        
+        
+    }
+
+    #section-experience {
+        text-align   : center;
+        width        : 45%;
+        float        : left;
+        border       : solid;
+        border-color : aquamarine;
+        border-radius: 5px;
+        box-shadow   : 4px 2px 4px 0px;
+    }
+   
+
+
+#div-contact {
+
+    text-align: center;
+    margin       : 80px;
+    padding      : 40px 20px;
+    border       : solid;
+    border-color : aquamarine;
+    border-radius: 5px;
+
+    box-shadow: 4px 2px 4px 0px;
+
+}
+
+
+
+footer {
+    clear: both;
+}
+
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear  : both;
+}
+
+
+
